@@ -19,8 +19,8 @@ const total = values.reduce((currentTotal, value) => currentTotal + value, 0);
 
 // This solution shows the calculation taking place and the 'currentTotal' being returned
 const totalExtended = values.reduce((currentTotal, value) => {
-  currentTotal += value;
-  return currentTotal;
+  
+  return currentTotal += value;
 }, 0);
 
 console.log(total);
